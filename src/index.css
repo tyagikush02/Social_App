@@ -1,0 +1,36 @@
+*body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-image:url("/bg.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.container{
+  width: 90vw;
+  height:90vh;
+  margin: auto;
+  background-color: rgba(0, 0, 255, 0.04);
+  backdrop-filter: blur(1px) saturate(200%);
+  overflow: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: transparent transparent;
+  border-radius: 12px;
+  display: flex; 
+}
+
+.loading{
+  padding: 50px;
+  font-size: 36px;
+  border-radius: 10px;
+  background-color: rgba(17,25,40,0.9);
+}
